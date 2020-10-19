@@ -1,0 +1,25 @@
+{
+    "@context": ["https://www.w3.org/ns/did/v1"],
+    "id": "did:btcr:xyv2-xzpq-q9wa-p7t",
+    "verificationMethod": [
+       {
+            "id": "did:btcr:xyv2-xzpq-q9wa-p7t#key-0",
+            "controller": "did:btcr:xyv2-xzpq-q9wa-p7t",
+            "type": "EcdsaSecp256k1VerificationKey2019",
+            "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
+        },
+        {
+             "id": "did:btcr:xyv2-xzpq-q9wa-p7t#vckey-0",
+             "controller": "did:btcr:xyv2-xzpq-q9wa-p7t",
+             "type": "EcdsaSecp256k1VerificationKey2019",
+             "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
+         }
+    ],
+    "authentication": ["#key-0"],
+    "assertionMethod": ["#vckey-0"],
+    "service":
+      {
+        "type": "BTCREndpoint",
+        "serviceEndpoint": "https://github.com/ChristopherA/self/blob/master/ddo.jsonld?hl=z87f623hkjh578v76dsf873h"
+      },
+}
