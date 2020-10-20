@@ -20,6 +20,6 @@
     "service":
       {
         "type": "BTCREndpoint",
-        "serviceEndpoint": "https://github.com/ChristopherA/self/blob/master/ddo.jsonld?hl=z87f623hkjh578v76dsf873h"
+        "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
       },
 }
