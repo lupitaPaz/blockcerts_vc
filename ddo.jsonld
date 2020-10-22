@@ -19,7 +19,7 @@
     "service":
       {
         "type": "BTCREndpoint",
-        "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
+        "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo1.jsonld"
       },
 
     "authentication": ["#key-0"],
