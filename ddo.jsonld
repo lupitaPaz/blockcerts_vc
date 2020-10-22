@@ -1,16 +1,16 @@
 {
     "@context": ["https://www.w3.org/ns/did/v1"],
-    "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt",
+    "id": "did:btcr:xyv2-xzpq-q9wa-p7t",
     "verificationMethod": [
        {
-            "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt#key-0",
-            "controller": "did:btcr:8wjc-3rzq-qqqq-4743-jt",
+            "id": "did:btcr:xyv2-xzpq-q9wa-p7t#key-0",
+            "controller": "did:btcr:xyv2-xzpq-q9wa-p7t",
             "type": "EcdsaSecp256k1VerificationKey2019",
             "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
         },
         {
-             "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt#vckey-0",
-             "controller": "did:btcr:8wjc-3rzq-qqqq-4743-jt",
+             "id": "did:btcr:xyv2-xzpq-q9wa-p7t#vckey-0",
+             "controller": "did:btcr:xyv2-xzpq-q9wa-p7t",
              "type": "EcdsaSecp256k1VerificationKey2019",
              "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
          }
@@ -21,5 +21,6 @@
       {
         "type": "BTCREndpoint",
         "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
-      }
+      },
 }
+
