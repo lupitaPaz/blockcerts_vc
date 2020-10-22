@@ -1,6 +1,6 @@
 {
     "@context": ["https://www.w3.org/ns/did/v1"],
-    "id": "did:btcr:",
+    "id": "did:btcr:xyv2-xzpq-q9wa-p7t",
     "verificationMethod": [
        {
             "id": "did:btcr:xyv2-xzpq-q9wa-p7t#key-0",
