@@ -17,13 +17,13 @@
     ],
     "authentication": ["#key-0"],
     "assertionMethod": ["#vckey-0"],
-    "service": [
+    "service":
       {
         "type": "BTCREndpoint",
         "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
-      }
-    ]
+      },
 }
+
 
 
 
