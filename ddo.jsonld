@@ -15,16 +15,13 @@
              "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
          }
     ],
-
+    "authentication": ["#key-0"],
+    "assertionMethod": ["#vckey-0"],
     "service":
       {
         "type": "BTCREndpoint",
         "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo1.jsonld"
       },
-
-    "authentication": ["#key-0"],
-    "assertionMethod": ["#vckey-0"]
 }
-
 
 
