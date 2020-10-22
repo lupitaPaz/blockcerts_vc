@@ -1,5 +1,5 @@
 {
-    "@context": ["https://www.w3.org/ns/did/v1"],
+    "@context": "https://www.w3.org/ns/did/v1",
     "id": "did:8wjc-3rzq-qqqq-4743-jt",
     "verificationMethod": [
        {
@@ -21,7 +21,7 @@
       {
         "type": "BTCREndpoint",
         "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
-      },
+      }
 }
 
 
