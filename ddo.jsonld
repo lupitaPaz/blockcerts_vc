@@ -21,6 +21,6 @@
       {
         "type": "BTCREndpoint",
         "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
-      }
+      },
 }
 
