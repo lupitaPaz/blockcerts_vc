@@ -1,16 +1,16 @@
 {
     "@context": ["https://www.w3.org/ns/did/v1"],
-    "id": "did:btcr:xyv2-xzpq-q9wa-p7t",
+    "id": "did:btcr:",
     "verificationMethod": [
        {
-            "id": "did:btcr:xyv2-xzpq-q9wa-p7t#key-0",
-            "controller": "did:btcr:xyv2-xzpq-q9wa-p7t",
+            "id": "did:btcr:#key-0",
+            "controller": "did:btcr:",
             "type": "EcdsaSecp256k1VerificationKey2019",
             "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
         },
         {
-             "id": "did:btcr:xyv2-xzpq-q9wa-p7t#vckey-0",
-             "controller": "did:btcr:xyv2-xzpq-q9wa-p7t",
+             "id": "did:btcr:#vckey-0",
+             "controller": "did:btcr:",
              "type": "EcdsaSecp256k1VerificationKey2019",
              "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
          }
