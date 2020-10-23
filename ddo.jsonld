@@ -16,12 +16,7 @@
          }
     ],
     "authentication": ["#key-0"],
-    "assertionMethod": ["#vckey-0"],
-    "service": [{
-        "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt#btcr-endpoint",
-        "type": "BTCREndpoint",
-        "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
-    }],
+    "assertionMethod": ["#vckey-0"]
 }
 
 
