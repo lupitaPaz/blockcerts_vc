@@ -1,16 +1,25 @@
 {
-    "@context": "https://w3id.org/did/v1",
-    "publicKey": [
+    "@context": "https://www.w3.org/ns/did/v1",
+    "id": "did:8wjc-3rzq-qqqq-4743-jt",
+    "verificationMethod": [
+       {
+            "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt#key-0",
+            "controller": "did:btcr:8wjc-3rzq-qqqq-4743-jt",
+            "type": "EcdsaSecp256k1VerificationKey2019",
+            "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
+        },
         {
-            "id": "#keys-2",
-            "type": "RsaVerificationKey2018",
-            "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
-        }
+             "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt#vckey-0",
+             "controller": "did:btcr:8wjc-3rzq-qqqq-4743-jt",
+             "type": "EcdsaSecp256k1VerificationKey2019",
+             "publicKeyBase58": "ndY81s6mvKdFNq4KtURk1QzyhfNYWtwffPWS4F2bMjfB"
+         }
     ],
-    "authentication": [
-        {
-            "type": "RsaSignatureAuthentication2018",
-            "publicKey": "#keys-2"
-        }
-    ]
+    "authentication": ["#key-0"],
+    "assertionMethod": ["#vckey-0"],
+    "service":
+      {
+        "type": "BTCREndpoint",
+        "serviceEndpoint": "https://raw.githubusercontent.com/lupitaPaz/blockcerts_vc/main/ddo.jsonld"
+      },
 }
