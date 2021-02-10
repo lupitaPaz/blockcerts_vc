@@ -1,7 +1,7 @@
 {
   "didDocument": {
     "@context": "https://www.w3.org/ns/did/v1",
-    "id": "did:8wjc-3rzq-qqqq-4743-jt",
+    "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt",
     "verificationMethod": [
        {
             "id": "did:btcr:8wjc-3rzq-qqqq-4743-jt#key-0",
